@@ -1,0 +1,237 @@
+body {
+  font-family: "Big Shoulders Display", serif;
+  font-optical-sizing: auto;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+#map {
+  height: 50vh;
+  width: 100%;
+  position: relative;
+  z-index: 0;
+}
+
+.btn {
+  display: flex;
+  text-decoration: none;
+  transition: all 0.3s;
+  position: absolute;
+  top: 0.8rem;
+  left: 6rem;
+  z-index: 10;
+}
+
+.btn-content {
+  padding: 20px 25px;
+  background-color: #151515;
+  color: white;
+  font-family: "Big Shoulders Display", serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hover on .btn affects both .btn-content and .icon */
+.btn:hover .btn-content {
+  background-color: #d5966c;
+}
+
+.btn:hover .icon {
+  background-color: #151515;
+}
+
+.icon {
+  margin-left: 0.5px;
+  padding: 10px 20px;
+  background-color: #d5966c;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.arrow-svg {
+  margin-top: 5px;
+}
+
+.location-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #151515;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 60vh;
+  color: white;
+}
+
+.our-location {
+  font-family: "Big Shoulders Display", serif;
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-right: 13rem;
+  margin-left: 4.5rem;
+  margin-top: 5rem;
+  line-height: 1;
+  width: 10%;
+}
+
+.address-container {
+  width: 29vw;
+}
+
+.street-name {
+  font-family: "Big Shoulders Display", serif;
+  color: #d5966c;
+  font-size: 1.8rem;
+  font-weight: 800;
+  line-height: 1;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+}
+
+.address-container {
+  font-family: "Outfit", serif;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 1.5;
+  margin-left: 4.5rem;
+  margin-top: 1rem;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #d5966c;
+  color: #151515;
+  height: 30vh;
+  width: 100%;
+}
+
+.footer-logo-name {
+  font-family: "Big Shoulders Display", serif;
+  font-size: 2.5rem;
+  text-decoration: none;
+  font-weight: 800;
+  margin-left: 2rem;
+  line-height: 1;
+}
+
+.footer-text {
+  font-family: "Outfit", serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.5;
+  max-width: 430px;
+  margin-left: -8rem;
+}
+
+.footer-icons .icon path {
+  fill: #151515;
+  transition: fill 0.3s ease;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-icons .icon {
+  background-color: transparent;
+  cursor: pointer;
+  margin-right: -25px;
+}
+
+.footer-icons .icon:hover path {
+  fill: #151515ad;
+}
+
+.btn {
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
+}
+
+@media (max-width: 1200px) {
+  .our-location {
+    margin-left: -9rem;
+  }
+
+  .address-container {
+    width: 36vw;
+    margin-left: -2rem;
+  }
+
+  .footer-text {
+    margin-left: -3rem;
+  }
+}
+
+@media (max-width: 1060px) {
+  .our-location {
+    margin-left: 0;
+    margin-right: 20rem;
+  }
+
+  .address-container {
+    width: 36vw;
+    margin-left: -5rem;
+    margin-top: 0;
+  }
+
+  .footer-text {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 730px) {
+  .location-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 85vh;
+  }
+
+  .our-location {
+    margin: 0;
+    margin-left: 8vw;
+    width: 100%;
+  }
+
+  .address-container {
+    width: 70vw;
+    margin: 0;
+    margin-left: 8vw;
+    margin-bottom: 3rem;
+    margin-top: -2rem;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 50vh;
+    width: 100%;
+    margin: 0;
+    margin-top: -5rem;
+  }
+
+  .footer-text {
+    width: 72%;
+    margin: 0;
+    margin-left: 2rem;
+  }
+
+  .footer-icons {
+    margin-left: 0.8rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
+}
