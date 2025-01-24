@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a modern art gallery website designed as part of the Frontend Mentor challenge. The website showcases a beautiful collection of modern art, providing details about the gallery, its location, and exhibitions.
+This is a modern art gallery website designed as part of the Frontend Mentor challenge. The website showcases a beautiful collection of modern art, providing details about the gallery and its location.
 
 ## Features
 
