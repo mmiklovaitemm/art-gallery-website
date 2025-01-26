@@ -341,7 +341,7 @@ body {
   }
 
   .gallery-container-1 img {
-    content: url("/starter-code/assets/tablet/image-grid-1@2x.jpg");
+    content: url("assets/tablet/image-grid-1@2x.jpg");
   }
 
   .gallery-image-1 {
@@ -368,11 +368,11 @@ body {
   }
 
   .gallery-image-2 {
-    content: url("/starter-code/assets/tablet/image-grid-2@2x.jpg");
+    content: url("assets/tablet/image-grid-2@2x.jpg");
   }
 
   .gallery-image-3 {
-    content: url("/starter-code/assets/tablet/image-grid-3@2x.jpg");
+    content: url("assets/tablet/image-grid-3@2x.jpg");
   }
 
   .gallery-container-2-right-side-text {
@@ -400,7 +400,7 @@ body {
   }
 
   .gallery-container-1 img {
-    content: url("/starter-code/assets/mobile/image-grid-1@2x.jpg");
+    content: url("assets/mobile/image-grid-1@2x.jpg");
   }
 
   .gallery-text-1-container {
@@ -420,7 +420,7 @@ body {
   }
 
   .gallery-image-2 {
-    content: url("/starter-code/assets/mobile/image-grid-2@2x.jpg");
+    content: url("assets/mobile/image-grid-2@2x.jpg");
   }
 
   .gallery-container-2 {
@@ -484,7 +484,7 @@ body {
   }
 
   .hero-image {
-    content: url("/starter-code/assets/mobile/image-hero.jpg");
+    content: url("assets/mobile/image-hero.jpg");
     object-fit: contain;
     margin-top: -14rem;
     width: 100%;
@@ -516,7 +516,7 @@ body {
   }
 
   .gallery-container-1 img {
-    content: url("/starter-code/assets/mobile/image-grid-1@2x.jpg");
+    content: url("assets/mobile/image-grid-1@2x.jpg");
   }
 
   .gallery-text-1-container {
@@ -536,11 +536,11 @@ body {
   }
 
   .gallery-image-2 {
-    content: url("/starter-code/assets/mobile/image-grid-2@2x.jpg");
+    content: url("assets/mobile/image-grid-2@2x.jpg");
   }
 
   .gallery-image-3 {
-    content: url("/starter-code/assets/mobile/image-grid-3@2x.jpg");
+    content: url("assets/mobile/image-grid-3@2x.jpg");
   }
 
   .gallery-container-2 {
