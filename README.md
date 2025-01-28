@@ -22,3 +22,8 @@ This is a modern art gallery website designed as part of the Frontend Mentor cha
 - **Leaflet.js**: A JavaScript library to create the interactive map.
 - **Google Fonts**: For custom fonts (`Big Shoulders Display` and `Outfit`).
 - **SVG Icons**: For the social media icons in the footer.
+
+## Acknowledgments 🙌
+- This project is part of the challenges provided by Frontend Mentor.
+
+## Feel free to share your feedback or improvements!
