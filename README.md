@@ -7,7 +7,7 @@ This is a modern art gallery website designed as part of the Frontend Mentor cha
 ## Features
 
 - **Hero Section**: A stunning hero image showcasing the modern art gallery.
-- **Gallery Section**: Displays the featured art pieces with detailed descriptions.
+- **Gallery Section**: Displays the featured art pieces.
 - **Location Section**: Provides the gallery's location and a link to the page with more details.
 - **Map Integration**: Displays an interactive map using Leaflet.js, with a custom marker indicating the gallery's location.
 - **Responsive Design**: The layout adapts to different screen sizes, ensuring a smooth experience on both desktop and mobile devices.
