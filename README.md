@@ -1,10 +1,12 @@
 # Frontend Mentor - Art gallery website
 
-## Description
+## Description 📝
 
 This is a modern art gallery website designed as part of the Frontend Mentor challenge. The website showcases a beautiful collection of modern art, providing details about the gallery and its location.
 
-## Features
+---
+
+## Features 🌟
 
 - **Hero Section**: A stunning hero image showcasing the modern art gallery.
 - **Gallery Section**: Displays the featured art pieces.
@@ -14,7 +16,9 @@ This is a modern art gallery website designed as part of the Frontend Mentor cha
 - **Footer**: Includes social media links and the gallery's contact information.
 - **Interactive Footer**: Social media icons that change color on hover.
 
-## Technologies Used
+---
+
+## Technologies Used 🛠️
 
 - **HTML5**: For the structure and layout of the webpage.
 - **CSS3**: For styling, including custom fonts and responsive design.
@@ -22,8 +26,15 @@ This is a modern art gallery website designed as part of the Frontend Mentor cha
 - **Leaflet.js**: A JavaScript library to create the interactive map.
 - **Google Fonts**: For custom fonts (`Big Shoulders Display` and `Outfit`).
 - **SVG Icons**: For the social media icons in the footer.
+  
+---
 
 ## Acknowledgments 🙌
-- This project is part of the challenges provided by Frontend Mentor.
 
-## Feel free to share your feedback or improvements!
+This project is part of the challenges provided by [Frontend Mentor](https://www.frontendmentor.io/)
+
+Feel free to share your feedback or improvements!
+
+---
+
+### Happy coding! 🚀
